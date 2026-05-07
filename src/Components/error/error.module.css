@@ -1,0 +1,6 @@
+.err{
+    height: 100vh;
+    font-size: xx-large;
+    display: grid;
+    place-content: center;
+}

@@ -1,0 +1,66 @@
+.inputWrapper {
+    margin: 2rem 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.inputWrapper input {
+    width: 60%;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 2px solid white;
+    font-size: medium;
+    font-weight: 500;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s linear;
+}
+
+.inputWrapper input:hover,
+.inputWrapper input:focus {
+    border-color: black;
+}
+
+.inputWrapper button {
+    width: fit-content;
+    padding: 1rem;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    font-size: large;
+    font-weight: 600;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s linear;
+}
+
+.inputWrapper button:active {
+    transform: scale(0.9);
+}
+
+.inputWrapper button:hover {
+    cursor: pointer;
+}
+
+@media (max-width:700px) {
+
+    .inputWrapper {
+        margin: 2rem 0;
+    }
+
+    .inputWrapper input {
+        width: 100%;
+        padding: 0.3rem 0.8rem;
+        font-size: small;
+        font-weight: 500;
+    }
+
+    .inputWrapper button {
+        width: fit-content;
+        padding: 0.8rem;
+        font-size: medium;
+        font-weight: 600;
+    }
+
+}

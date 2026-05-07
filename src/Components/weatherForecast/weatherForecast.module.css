@@ -1,0 +1,84 @@
+.forecastWrapper {
+    padding: 2rem;
+    margin: 2rem 0;
+    background: rgb(216, 240, 255);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.forecastHeading h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.forecastInfoContainer {
+    padding: 2rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    overflow-x: auto;
+}
+
+
+.forecastDetails {
+    width:fit-content;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: 1rem;
+    border-radius: 1rem;
+    font-size: medium;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.forecastDetails img {
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+}
+
+@media (max-width:700px) {
+    .forecastWrapper {
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+
+    .forecastHeading h2 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .forecastInfoContainer {
+        padding: 1rem;
+    }
+
+
+    .forecastDetails {
+        width: fit-content;
+        padding: 1rem;
+        font-size: small;
+        font-weight: 500;
+
+        gap: 0.5rem;
+
+    }
+
+    .forecastDetails img {
+        height: 3rem;
+        width: 3rem;
+        object-fit: cover;
+    }
+
+
+}

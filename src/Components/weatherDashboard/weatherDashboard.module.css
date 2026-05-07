@@ -1,0 +1,60 @@
+.appWrapper {
+    min-height: 100vh;
+    padding: 2rem 4rem;
+    background: linear-gradient(to right, lightblue, rgb(189, 221, 234) 50%);
+}
+
+.nameDateWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appName {
+    font-size: 5rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.appName span:first-child {
+    color: black;
+}
+
+.appName span:last-child {
+    color: rgb(92, 92, 249);
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.date span:first-child {
+    color: black;
+    text-transform: uppercase;
+}
+
+.date span:last-child {
+    color: gray;
+}
+
+@media (max-width:700px) {
+
+    .appWrapper {
+        padding: 1rem 2rem;
+    }
+
+    .appName {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .date {
+        font-size: small;
+        font-weight: 500;
+    }
+
+}
